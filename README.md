@@ -51,8 +51,7 @@ Responsive design for various screen sizes.
 Installation
 Clone the repository to your local machine:
 bash
-Copy code
-git clone https://github.com/your-username/email-verification-web-page.git
+
 Set up a PHP server to host the application files.
 
 Configure your email server settings in the send_email.php file.
