@@ -1,0 +1,311 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex; /* Flexbox for vertical centering */
+    justify-content: center; /* Align horizontally in center */
+    align-items: center; /* Align vertically in center */
+    min-height: 100vh; /* Set minimum height for viewport */
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    text-align: center; /* Aligns text within the container */
+}
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+ 
+  .header a {
+    font-size: 20px;
+    color: #95beea;
+    text-decoration: none;
+  }
+ 
+  .header span {
+    font-size: 14px;
+    color: #aaa;
+  }
+ 
+  h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+ 
+  p {
+    text-align: left;
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+ 
+
+  .form-group {
+    margin-bottom: 5px;
+    text-align: left;    
+  }
+ 
+
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+ 
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+ 
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+ 
+  .checkbox {
+    margin-bottom: 15px;
+  }
+ 
+  .checkbox label {
+    font-size: 14px;
+    for {
+      display: block;
+      margin-right: 10px;
+    }
+  }
+
+ 
+  .image-container {
+    flex: 1;
+    margin-right: 200px;
+    align-items: left;
+    width: 400px;
+    margin: 50px ;
+    padding: 30px;
+  }
+
+
+  .image-container img {
+    max-width: 100%;
+    height: 100px;
+    width: 400px;
+    margin: 50px ;
+    padding: 30px;
+  }
+
+.signinform
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+  
+  button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
+
+  .createaccountform
+
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Set body height to viewport height */
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+/* New CSS for the circle with dotted border and icon */
+
+.avatar-circle {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: transparent; /* Transparent background for border to show */
+    border: 2px dashed #ccc; /* Dotted border with desired color */
+    border-radius: 50%;
+    margin-right: 5px;
+    line-height: 30px; /* Ensures text aligns in the middle */
+    position: relative; /* Needed for icon positioning */
+}
+
+.avatar-circle::after {
+    content: "\f030"; /* Font Awesome code for camera icon */
+    font-family: FontAwesome; /* Replace with your font library name */
+    font-size: 12px; /* Adjust size as needed */
+    color: #ccc; /* Adjust color to match border */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the icon within the circle */
+}
+
+
+
+
+.nextbuttonform
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .option {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .option img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .option p {
+    margin: 0;
+  }
+  
+  .highlighted {
+    border-color: rgb(211, 200, 200);
+  }
+  
+  .finish-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+
+
+
